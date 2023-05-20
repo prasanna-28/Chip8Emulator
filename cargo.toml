@@ -1,0 +1,15 @@
+[package]
+name = "chip8-emulator"
+version = "0.1.0"
+edition = "2023"
+
+[dependencies]
+crossterm = "0.23"
+
+[dependencies.rand]
+version = "0.8"
+features = ["std"]
+
+[[bin]]
+name = "chip8-emulator"
+path = "main.rs"
